@@ -36,6 +36,11 @@
 
 #Post Build Success check for Jar/war files in target/ subdirectory
 
+# Test App post build Success
+ $java -jar target/*.jar
+
+ -> It will show as Output of App.
+
 
  
 
